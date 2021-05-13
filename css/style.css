@@ -93,9 +93,3 @@ img:not(.nav-logo) {
     margin-left: 10rem;
   }
 }
-
-@media screen and (max-width: 280px) {
-  .page-btn {
-    margin-left: 10rem;
-  }
-}
