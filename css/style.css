@@ -86,16 +86,29 @@ img:not(.nav-logo) {
 .page-btn {
   padding: 1rem;
   font-size: 1rem;
+  margin-left: 5rem;
 }
 
 @media screen and (min-width: 280px) {
   .page-btn {
-    margin-left: 6rem;
+    margin-left: 10rem;
   }
 }
 
 @media screen and (min-width: 556px) {
   .page-btn {
-    margin-left: 10rem;
+    margin-left: 15rem;
+  }
+}
+
+@media screen and (min-width: 772px) {
+  .page-btn {
+    margin-left: 20rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .page-btn {
+    margin-left: 12rem;
   }
 }
