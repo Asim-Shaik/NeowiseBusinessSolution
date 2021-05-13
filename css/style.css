@@ -1,0 +1,101 @@
+:root {
+  --radius: 1.5rem;
+  --ff-primary: "Catamaran", sans-serif;
+}
+
+img:not(.nav-logo) {
+  width: 100%;
+  display: block;
+
+  border-radius: var(--radius);
+}
+.space {
+  margin-top: 5rem;
+}
+.section-title {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+.about {
+  margin-top: 4rem;
+}
+.about-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.about-title .underline {
+  margin-left: 0;
+}
+.about-center {
+  display: grid;
+  gap: 3rem 2rem;
+}
+.about-img {
+  justify-self: center;
+}
+
+@media screen and (min-width: 992px) {
+  .about-center {
+    grid-template-columns: 1fr 1fr;
+  }
+  .underline {
+    width: 25rem;
+    height: 0.25rem;
+    margin-bottom: 1.25rem;
+    background: var(--clr-primary-5);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .underline-2 {
+    background: var(--clr-primary-0);
+  }
+  .about-img {
+    position: relative;
+  }
+  .about-img::before {
+    left: -2rem;
+  }
+  .about-info {
+    align-self: center;
+  }
+
+  .about-img::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 0.25rem solid var(--clr-primary-5);
+    top: 2rem;
+    right: -2rem;
+    border-radius: var(--radius);
+    z-index: -1;
+  }
+  .img-2::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 0.25rem solid var(--clr-primary-0);
+    top: 2rem;
+    left: 2rem;
+    border-radius: var(--radius);
+    z-index: -1;
+  }
+}
+
+.page-btn {
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 556px) {
+  .page-btn {
+    margin-left: 10rem;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .page-btn {
+    margin-left: 10rem;
+  }
+}
