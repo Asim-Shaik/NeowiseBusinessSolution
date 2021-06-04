@@ -676,6 +676,7 @@ Contact
   color: var(--clr-primary-1);
   padding-top: 2rem;
   margin-bottom: 0;
+  font-size: 1rem;
 }
 .contact-forms {
   display: flex;
