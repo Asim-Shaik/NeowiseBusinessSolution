@@ -540,6 +540,7 @@ Services page
 }
 @media screen and (max-width: 360px) {
   .service-btn {
+    font-size: 1rem;
     width: 10rem;
   }
 }
