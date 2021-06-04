@@ -679,9 +679,14 @@ Contact
 }
 .contact-forms {
   display: flex;
-  max-width: 100%;
+
   margin-right: 1rem;
   margin-left: 1rem;
+}
+@media screen and (min-width: 360px) {
+  .contact-forms {
+    max-width: 100%;
+  }
 }
 .forms-control {
   flex: 1 1 auto;
