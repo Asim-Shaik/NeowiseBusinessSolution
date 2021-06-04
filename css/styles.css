@@ -683,7 +683,7 @@ Contact
   margin-right: 1rem;
   margin-left: 1rem;
 }
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 556px) {
   .contact-forms {
     max-width: 100%;
   }
