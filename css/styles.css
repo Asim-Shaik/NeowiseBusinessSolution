@@ -684,7 +684,7 @@ Contact
 }
 
 .forms-control {
-  flex: 1 1 auto;
+  flex: 1 1 0;
   color: var(--clr-grey-5);
   max-width: 10rem;
 }
