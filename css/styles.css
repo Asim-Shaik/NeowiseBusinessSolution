@@ -313,6 +313,11 @@ Hero
   justify-content: center;
   align-items: center;
   margin-bottom: 0;
+  background: linear-gradient(
+    60deg,
+    rgba(218, 129, 12, 0.9),
+    rgba(44, 174, 186, 0.9)
+  );
 }
 .hero-banner {
   text-align: center;
@@ -322,7 +327,7 @@ Hero
 .hero-banner h1 {
   text-transform: uppercase;
   text-shadow: 2px 2px 4px #000000;
-  color: rgb(39, 39, 39);
+  color: rgb(255, 255, 255);
 }
 .hero-banner p {
   font-size: 1.4rem;
@@ -348,7 +353,7 @@ Hero
     background: linear-gradient(
         60deg,
         rgba(218, 129, 12, 0.9),
-        rgb(44, 174, 186, 0.9)
+        rgba(44, 174, 186, 0.9)
       ),
       url("../images/main.jpg") center/cover no-repeat;
   }
