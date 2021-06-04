@@ -688,7 +688,7 @@ Contact
   color: var(--clr-grey-5);
   max-width: 8rem;
 }
-@media screen and (min-width: 280px) {
+@media screen and (min-width: 556px) {
   .forms-control {
     max-width: 100%;
   }
