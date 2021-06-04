@@ -679,7 +679,6 @@ Contact
 }
 .contact-forms {
   display: flex;
-  max-width: 10rem;
   margin-right: 1rem;
   margin-left: 1rem;
 }
@@ -687,6 +686,7 @@ Contact
 .forms-control {
   flex: 1 1 auto;
   color: var(--clr-grey-5);
+  max-width: 10rem;
 }
 .forms-control,
 .btn-submit {
