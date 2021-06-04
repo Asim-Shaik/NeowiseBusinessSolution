@@ -679,7 +679,7 @@ Contact
 }
 .contact-forms {
   display: flex;
-  width: fit-content;
+  max-width: 10rem;
   margin-right: 1rem;
   margin-left: 1rem;
 }
