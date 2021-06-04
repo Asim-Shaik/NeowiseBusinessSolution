@@ -686,11 +686,11 @@ Contact
 .forms-control {
   flex: 1 1 auto;
   color: var(--clr-grey-5);
-  max-width: 8rem;
+  max-width: 100%;
 }
 @media screen and (max-width: 280px) {
   .forms-control {
-    max-width: 100%;
+    max-width: 8rem;
   }
 }
 .forms-control,
