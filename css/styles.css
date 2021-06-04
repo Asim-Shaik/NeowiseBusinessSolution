@@ -538,7 +538,11 @@ Services page
   bottom: 5px;
   width: 20rem;
 }
-
+@media screen and (max-width: 360px) {
+  .service-btn {
+    width: 10rem;
+  }
+}
 @media screen and (min-width: 768px) {
   .service-card {
     float: left;
