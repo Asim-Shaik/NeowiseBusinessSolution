@@ -1070,6 +1070,7 @@ main {
 }
 #info {
   margin-bottom: 0.75rem;
+  text-align: left;
 }
 .prev-btn,
 .next-btn {
